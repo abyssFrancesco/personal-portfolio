@@ -1,0 +1,27 @@
+.navbar-box{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+}
+.navbar ul li a:hover{
+    color: white;
+}
