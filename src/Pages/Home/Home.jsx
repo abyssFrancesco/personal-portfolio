@@ -21,7 +21,16 @@ const Home = () => {
         <div className="img IB">
           <img src={pfp} alt="" />
         </div>
-        <div className="frame-box B">
+        <div className="type-box B">
+          <div className="type IB">
+            <h2>Recently Played</h2>
+          </div>
+          <div className="tab">
+            <h2>Recently Played</h2>
+            <h2>Top Tracks</h2>
+          </div>
+        </div>
+        <div className="frame-box ">
           <div className="big-frame IB">
             <iframe
               data-testid="embed-iframe"

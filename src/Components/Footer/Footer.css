@@ -1,0 +1,17 @@
+.footer-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.footer p {
+  color: rgb(189, 189, 189);
+  font-size: 15px;
+}
