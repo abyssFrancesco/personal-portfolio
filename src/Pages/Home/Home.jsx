@@ -5,6 +5,12 @@ import pfp from "../../assets/pfp2.jpeg";
 import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
+
+
+
+
+
+  
   return (
     <div className="home B">
       <Navbar />
