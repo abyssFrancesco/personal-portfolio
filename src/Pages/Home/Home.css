@@ -43,7 +43,7 @@
   align-items: center;
 }
 .img img {
-  width: 50%;
+  width: 22em;
   border-radius: 10px;
 }
 .type-box{
@@ -103,4 +103,46 @@
 
   margin: 0;
   padding: 0;
+}
+
+
+/* --- RESPONSIVE: mobile sotto i 700px --- */
+@media (max-width: 700px) {
+  .home-content {
+    width: 95%;
+    padding: 0 8px;
+  }
+  .title h1 {
+    font-size: 24px;  
+  }
+  .img img {
+    width: 90%;     
+  }
+  .type-box,
+  .frame-box {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+  .tab {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .big-frame iframe,
+  .small-frame .song iframe {
+    width: 100vw;
+    max-width: 100%;
+    height: 200px;
+  }
+  .small-frame .song iframe {
+    height: 60px;
+  }
+}
+
+/* --- Responsive super extra piccolo (smartphone vecchi e schermi XS) --- */
+@media (max-width: 400px) {
+  .title h1 {
+    font-size: 17px;
+  }
 }
