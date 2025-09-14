@@ -4,6 +4,11 @@ import Navbar from "../../Components/Navbar/Navbar";
 import pfp from "../../assets/pfp2.jpeg";
 import Footer from "../../Components/Footer/Footer";
 
+const CLIENT_ID = import.meta.env.VITE_CLIENT_ID;
+const CLIENT_SECRET = import.meta.env.CLIENT_SECRET;
+
+
+
 const Home = () => {
 
 
